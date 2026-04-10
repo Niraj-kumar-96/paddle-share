@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production Build
+dist/
+dist-ssr/
+build/
+out/
+
+# Vite Caching
+.vite/
+
+# Vercel & Deployment
+.vercel/
+.netlify/
+
+# Local Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editors & IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.eslintcache
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak

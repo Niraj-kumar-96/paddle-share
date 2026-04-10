@@ -1,0 +1,40 @@
+{
+  "name": "Message",
+  "type": "object",
+  "properties": {
+    "conversation_key": {
+      "type": "string",
+      "description": "Unique key for the conversation (sorted emails joined)"
+    },
+    "ride_id": {
+      "type": "string",
+      "description": "Related ride ID"
+    },
+    "sender_email": {
+      "type": "string",
+      "description": "Email of the sender"
+    },
+    "sender_name": {
+      "type": "string",
+      "description": "Name of the sender"
+    },
+    "receiver_email": {
+      "type": "string",
+      "description": "Email of the receiver"
+    },
+    "content": {
+      "type": "string",
+      "description": "Message content"
+    },
+    "is_read": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "conversation_key",
+    "sender_email",
+    "receiver_email",
+    "content"
+  ]
+}
